@@ -1,125 +1,59 @@
-# StackVerse Bootcamp
+# 🧑‍💻 StackVerse Bootcamp
 
-A responsive **coding bootcamp landing page** built using **HTML5, Bootstrap 5, Bootstrap Icons, and CSS3**.
+A responsive **coding bootcamp landing page** built using **HTML5, CSS3, Bootstrap 5 and Bootstrap Icons**. This project was created to practice building a real-world landing page with responsive layouts, Bootstrap components, structured sections and interactive UI elements.
 
-The website presents StackVerse Bootcamp as a platform for learning full-stack development and AI-integrated development, with sections covering learning programs, instructors, frequently asked questions, contact information, and enrollment.
+## 📸 Preview
+
+### 🏠 Home / Hero Section
+
+![Home Preview](./home.png)
+
+### 📚 Learning Sections
+
+![Learning Preview](./learning.png)
+
+### 👨‍🏫 Instructors & FAQ
+
+![Instructors Preview](./faq-instructors.png)
+
+### 📱 Contact & Footer
+
+![Contact Preview](./contact-footer.png)
+
+---
 
 ## 🚀 Live Demo
 
 https://arjunsudheer-tech.github.io/stackverse-bootcamp/
 
-## 📸 Preview
-
-![StackVerse Bootcamp Preview](images/showcase.svg)
+---
 
 ## ✨ Features
 
-* Responsive navigation bar
-* Hero / showcase section
-* Bootstrap responsive grid layout
+* Responsive navigation bar with Bootstrap
+* Hero section introducing the AI Integrated Full Stack Developer program
+* Enroll Now button with Bootstrap modal
 * Newsletter signup section
-* Virtual, In-Person, and Hybrid learning cards
+* Virtual, In Person and Hybrid learning options
 * Fundamentals learning section
 * React.js frameworks section
-* Frequently Asked Questions accordion
-* Instructor profiles
+* Frequently Asked Questions section using Bootstrap accordion
+* Instructor profile cards
 * Contact information section
 * Embedded Google Maps location
-* Enrollment modal form
+* Responsive layout using Bootstrap grid system
 * Smooth scrolling navigation
 * Responsive design for different screen sizes
 
-## 🛠️ Technologies Used
+---
 
-* **HTML5**
-* **CSS3**
-* **Bootstrap 5**
-* **Bootstrap Icons**
-* **Google Maps Embed**
+## 🛠️ Built With
 
-## 📚 Sections
+* HTML5
+* CSS3
+* Bootstrap 5
 
-### 🏠 Hero Section
-
-Introduces the StackVerse Bootcamp with a focus on becoming an:
-
-> **AI Integrated Full Stack Developer**
-
-Includes an **Enroll Now** button that opens the enrollment modal.
-
-### 📧 Newsletter
-
-A newsletter signup section where visitors can enter their email address.
-
-### 💻 Learning Options
-
-The website presents three learning formats:
-
-* **Virtual**
-* **In Person**
-* **Hybrid**
-
-### 📖 Learn the Fundamentals
-
-Introduces the foundational technologies covered by the bootcamp, including:
-
-* HTML
-* CSS
-* Bootstrap
-* JavaScript
-* Git
-* Responsive Design
-* Debugging
-* Problem Solving
-
-### ⚛️ Learn Frameworks
-
-Introduces React.js and concepts such as:
-
-* Components
-* Props
-* State
-* Hooks
-* Routing
-* API Integration
-
-### ❓ Frequently Asked Questions
-
-An interactive Bootstrap accordion containing questions about:
-
-* The bootcamp
-* Available programs
-* Prior coding experience
-* Program duration
-* Job placement assistance
-
-### 👨‍🏫 Instructors
-
-The website includes four instructor profile cards with:
-
-* Profile images
-* Names
-* Descriptions
-* Social media icons
-
-### 📍 Contact & Location
-
-Includes:
-
-* Address
-* Phone number
-* Email
-* Website
-* Office hours
-* Embedded Google Maps location
-
-### 📝 Enrollment Modal
-
-The **Enroll Now** button opens a Bootstrap modal containing a form for:
-
-* First Name
-* Email
-* Phone Number
+---
 
 ## 📂 Project Structure
 
@@ -136,82 +70,70 @@ stackverse-bootcamp/
 │   ├── fundamentals.svg
 │   └── react.svg
 │
-└── icons/
-    └── logo.svg
+├── icons/
+│   └── logo.svg
+│
+└── README.md
 ```
+
+---
 
 ## 🎯 What I Learned
 
-Through this project, I practiced building a complete responsive landing page using **Bootstrap's component system and grid layout**.
+While building this project, I practiced:
 
-Key concepts practiced include:
+* Building a complete multi-section landing page
+* Using Bootstrap's responsive grid system
+* Creating responsive navigation with Bootstrap
+* Working with Bootstrap cards
+* Using Bootstrap modals
+* Creating FAQ sections with Bootstrap accordion
+* Using Bootstrap Icons
+* Creating responsive layouts for different screen sizes
+* Embedding Google Maps
+* Organizing custom CSS separately from Bootstrap
+* Using Flexbox and Bootstrap utility classes
+* Working with spacing, typography and responsive utilities
+* Structuring a real-world website into reusable sections
 
-* Bootstrap containers and grid system
-* Responsive layouts
-* Navbar and responsive navigation
-* Bootstrap cards
-* Buttons and utility classes
-* Accordion components
-* Modal components
-* Bootstrap Icons
-* Responsive images
-* Embedded maps
-* Custom CSS
-* Smooth scrolling
-* Organizing a multi-section website
+---
 
-## 🔧 Bootstrap Components Used
+## 📱 Responsive Design
 
-This project makes use of several Bootstrap components and utilities, including:
+The website is designed to adapt to different screen sizes using **Bootstrap's responsive grid system and utility classes**.
 
-* Navbar
-* Navbar toggler
-* Cards
-* Grid system
-* Buttons
-* Accordion
-* Modal
-* Form controls
-* Responsive utilities
-* Spacing utilities
-* Typography utilities
-* Background and text utilities
+The layout adjusts:
 
-## 🚀 How to Run Locally
+* Navigation menu
+* Hero section
+* Learning sections
+* Learning option cards
+* Instructor cards
+* Contact section
+* Spacing and typography
 
-1. Clone the repository:
+---
 
-```bash
-git clone <your-repository-url>
-```
+## 📈 Future Improvements
 
-2. Open the project folder:
-
-```bash
-cd stackverse-bootcamp
-```
-
-3. Open `index.html` in your browser.
-
-No build tools or installation are required.
-
-## 📌 Future Improvements
-
-* Make the newsletter form functional
-* Add form validation
+* Make the newsletter signup functional
+* Add JavaScript form validation
 * Connect the enrollment form to a backend
-* Add actual navigation links for program pages
-* Add real instructor social media links
-* Improve accessibility
-* Add more responsive refinements
-* Deploy the website using GitHub Pages
+* Add actual functionality to the Read More buttons
+* Add real social media links for instructors
+* Add additional course/program pages
+* Improve accessibility with better ARIA labels and descriptive `alt` text
+* Add more interactive functionality
+
+---
 
 ## 👨‍💻 Author
 
 **Arjun S**
 
-Built as part of my frontend development learning journey while progressing toward full-stack development.
+* GitHub: https://github.com/arjunsudheer-tech
+* LinkedIn: https://www.linkedin.com/in/arjunsudheer-tech/
 
 ---
 
-⭐ If you like the project, consider giving the repository a star!
+⭐ If you like this project, consider giving it a star.
